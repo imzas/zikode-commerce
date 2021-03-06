@@ -2,6 +2,14 @@ const bundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: !!process.env.BUNDLE_ANALYZE,
 })
 
+const withPWA = require('next-pwa')
+
+module.exports = withPWA({
+  pwa: {
+    dest: 'public',
+  },
+})
+
 module.exports = bundleAnalyzer({
   images: {
     domains: ['cdn11.bigcommerce.com'],
