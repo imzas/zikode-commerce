@@ -31,7 +31,7 @@ const Footer: FC<Props> = ({ className, pages }) => {
                 <span className="rounded-full border border-gray-700 mr-2">
                   <Logo />
                 </span>
-                <span>ACME</span>
+                <span>Zikode</span>
               </a>
             </Link>
           </div>
@@ -86,7 +86,7 @@ const Footer: FC<Props> = ({ className, pages }) => {
             <div className="flex space-x-6 items-center h-10">
               <a
                 aria-label="Github Repository"
-                href="https://github.com/vercel/commerce"
+                href=""
                 className={s.link}
               >
                 <Github />
@@ -97,20 +97,20 @@ const Footer: FC<Props> = ({ className, pages }) => {
         </div>
         <div className="py-12 flex flex-col md:flex-row justify-between items-center space-y-4">
           <div>
-            <span>&copy; 2020 ACME, Inc. All rights reserved.</span>
+            <span>&copy; 2021 Zikode Techserve. All rights reserved.</span>
           </div>
           <div className="flex items-center text-primary">
             <span className="text-primary">Crafted by</span>
             <a
               rel="noopener"
-              href="https://vercel.com"
-              aria-label="Vercel.com Link"
+              href="https://zikode.com"
+              aria-label="Zikode.com Link"
               target="_blank"
               className="text-primary"
             >
               <Vercel
                 className="inline-block h-6 ml-4 text-primary"
-                alt="Vercel.com Logo"
+                alt="Zikode.com Logo"
               />
             </a>
           </div>
