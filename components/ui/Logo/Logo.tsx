@@ -20,8 +20,8 @@
 
 
 
-const Logo = () => (
-  <img src="extra/logo.svg" width="32" height="32" alt="zikode-logo" />
+const Logo = ({...props}) => (
+  <img src="extra/logo.svg" width="32" height="32" alt="zikode-logo" {...props} />
 )
 
 export default Logo
